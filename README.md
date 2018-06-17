@@ -15,11 +15,11 @@ Then the item can be shipped to zip code 94199, 94300, and 65532, but cannot be 
 
 Any item might be restricted based on multiple sets of these ranges obtained from multiple sources.
 
-##PROBLEM:
+PROBLEM:
 
 Given a collection of 5-digit ZIP code ranges (each range includes both their upper and lower bounds), provide an algorithm that produces the minimum number of ranges required to represent the same restrictions as the input.
 
-##Extra Input: 
+Extra Input: 
 
 The ranges above are just examples, your implementation should work for any set of arbitrary ranges,
 Ranges may be provided in arbitrary order,
@@ -34,13 +34,13 @@ If the input:[94133,94133] [94200,94299] [94226,94399] Then the output should be
 
 ### Prerequisites:
 
-Eclipse,
+Eclipse
 
-Java Environment,
+Java Environment
 
-Maven,
+Maven
 
-Relavant Libraries ,
+Relavant Libraries 
 
 Building Maven is used for building the source code.
 
@@ -53,7 +53,7 @@ Test: Use mvn test to run the test cases. Surefire reports are generated inside 
 
 Javadoc: Use mvn javadoc:javadoc to generate javadoc for the project. The javadoc will be generated inside target/site folder.
 
-###Libraries: 
+Libraries: 
 
 junit 4.12: Unit testing framework.
 
