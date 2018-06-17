@@ -16,11 +16,11 @@ Then the item can be shipped to zip code 94199, 94300, and 65532, but cannot be 
 
 Any item might be restricted based on multiple sets of these ranges obtained from multiple sources.
 
-###PROBLEM:
+##PROBLEM:
 
 Given a collection of 5-digit ZIP code ranges (each range includes both their upper and lower bounds), provide an algorithm that produces the minimum number of ranges required to represent the same restrictions as the input.
 
-###Extra Input: 
+##Extra Input: 
 
 The ranges above are just examples, your implementation should work for any set of arbitrary ranges
 Ranges may be provided in arbitrary order
@@ -45,12 +45,12 @@ Building Maven is used for building the source code.
 ### Execution:
 For executing the application, 
 
-run: mvn exec:java Maven will compile the test cases and source code. It will wait for user to supply input. Sample input can be [49679,52015] [49800,50000] [51500,53479] [45012,46937] The application will then display the minimum number of ranges required.
+Run: mvn exec:java Maven will compile the test cases and source code. It will wait for user to supply input. Sample input can be [49679,52015] [49800,50000] [51500,53479] [45012,46937] The application will then display the minimum number of ranges required.
 
-Test Use mvn test to run the test cases. Surefire reports are generated inside target/surefire-reports folder.
+Test:Use mvn test to run the test cases. Surefire reports are generated inside target/surefire-reports folder.
 
-Javadoc Use mvn javadoc:javadoc to generate javadoc for the project. The javadoc will be generated inside target/site folder.
+Javadoc:Use mvn javadoc:javadoc to generate javadoc for the project. The javadoc will be generated inside target/site folder.
 
 ###Libraries: 
 
-junit 4.12 - Unit testing framework junit-dataprovider 1.10.0 - JUnit dataprovider framework to supply input to test cases log4j 1.2.17 - Library for logging
+junit 4.12 - Unit testing framework junit-dataprovider 1.10.0 - JUnit data provider framework to supply input to test cases log4j 1.2.17 - Library for logging
