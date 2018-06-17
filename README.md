@@ -35,8 +35,11 @@ If the input:[94133,94133] [94200,94299] [94226,94399] Then the output should be
 ### Prerequisites:
 
 Eclipse,
+
 Java Environment,
+
 Maven,
+
 Relavant Libraries ,
 
 Building Maven is used for building the source code.
@@ -53,5 +56,7 @@ Javadoc: Use mvn javadoc:javadoc to generate javadoc for the project. The javado
 ###Libraries: 
 
 junit 4.12: Unit testing framework.
+
 junit-dataprovider 1.10.0: JUnit data provider framework to supply input to test cases.
+
 log4j 1.2.17: Library for logging. 
